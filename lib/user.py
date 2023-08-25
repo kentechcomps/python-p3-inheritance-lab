@@ -1,4 +1,6 @@
 #!/usr/bin/env python
 
 class User:
-    pass
+    def __init__(self , firstname , lastname):
+        self.firstname = firstname
+        self.lastname = lastname
